@@ -5,10 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 2</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .textrouge {
+            color: red;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .textvert {
+            color: green;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <h1>Page 2</h1>
-    <p>Contenu de la page 2</p>
-    <p><a href="../index.html">Retour à la page d'accueil</a></p>
+
+    <header>
+        <h1>Ma Page Web</h1>
+    </header>
+
+    <section>
+        <h2 class="textrouge">Contenu de la Page 2</h2>
+        <p class="textvert">Bienvenue sur la deuxième page de notre site.</p>
+        <p>Voici du contenu spécifique à la page 2.</p>
+        <p><a href="doc/page1.html">Retour à la Page d'accueil</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Ma Page Web. Tous droits réservés.</p>
+    </footer>
+
 </body>
 </html>
